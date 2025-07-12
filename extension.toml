@@ -1,0 +1,7 @@
+id = "vscode-default-dark-modern"
+name = "VSCode Dark Modern"
+version = "0.0.1"
+schema_version = 1
+authors = ["T1ckbase"]
+description = "The most accurate port of VSCode's Dark Modern theme for Zed"
+repository = "https://github.com/T1ckbase/zed-vscode-default-dark-modern"
