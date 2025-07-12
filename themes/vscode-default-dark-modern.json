@@ -18,7 +18,7 @@
         "elevated_surface.background": "#202020", // editorWidget.background
         "surface.background": "#79797966", // scrollbarSlider.background
         "background": "#1f1f1f", // editor.background
-        "element.background": "#0078d4", // ?
+        "element.background": "#0078d4", // ? weird
         "element.hover": "#2a2d2e", // list.hoverBackground
         "element.active": "#04395e", // list.activeSelectionBackground
         "element.selected": "#04395e", // list.activeSelectionBackground
@@ -118,10 +118,10 @@
         "version_control.added": "#2ea043", // editorGutter.addedBackground
         "version_control.deleted": "#f85149", // editorGutter.deletedBackground
         "version_control.modified": "#0078d4", // editorGutter.modifiedBackground
-        "version_control.renamed": null,
-        "version_control.conflict": null,
-        "version_control.ignored": null,
-        "version_control.conflict_marker.ours": null,
+        "version_control.renamed": null, // ?
+        "version_control.conflict": null, // ?
+        "version_control.ignored": null, // ?
+        "version_control.conflict_marker.ours": null, // TODO
         "version_control.conflict_marker.theirs": null,
         "version_control_conflict_ours_background": null,
         "version_control_conflict_theirs_background": null,
@@ -158,7 +158,7 @@
         "renamed": "#73c991", // gitDecoration.renamedResourceForeground
         "renamed.background": null, // null
         "renamed.border": null, // null
-        "success": null,
+        "success": null, // null
         "success.background": null,
         "success.border": null,
         "unreachable": null,
@@ -177,30 +177,36 @@
           }
         ],
         "syntax": {
+          // entity.other.attribute-name
           "attribute": {
             "color": "#9CDCFE",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // constant.language
           "boolean": {
             "color": "#569CD6",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // comment
           "comment": {
             "color": "#6A9955",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // comment.block.documentation
           "comment.doc": {
             "color": "#6A9955",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // constant.language
+          // constant.character
           "constant": {
             "color": "#569CD6",
             "background_color": null,
@@ -231,12 +237,14 @@
             "font_style": null,
             "font_weight": null
           },
+          // keyword
           "keyword": {
             "color": "#569CD6",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // constant.numeric
           "number": {
             "color": "#B5CEA8",
             "background_color": null,
@@ -262,89 +270,100 @@
             "font_weight": null
           },
           "punctuation": {
-            "color": "#808080",
+            "color": "#CCCCCC",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // punctuation.brackets
           "punctuation.bracket": {
-            "color": "#808080",
+            "color": "#CCCCCC",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
           "punctuation.delimiter": {
-            "color": "#808080",
+            "color": "#CCCCCC",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
           "punctuation.list_marker": {
-            "color": "#808080",
+            "color": "#CCCCCC",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
           "punctuation.special": {
-            "color": "#808080",
+            "color": "#CCCCCC",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // string
           "string": {
             "color": "#CE9178",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // constant.character.escape
           "string.escape": {
-            "color": "#569CD6",
+            "color": "#D7BA7D",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // string.regexp
           "string.regex": {
-            "color": "#CE9178",
+            "color": "#D16969",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // ?
           "string.special": {
-            "color": "#CE9178",
+            "color": "#D16969",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // ?
           "string.special.symbol": {
-            "color": "#CE9178",
+            "color": "#D16969",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // entity.name.tag
           "tag": {
             "color": "#569CD6",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // string
           "text.literal": {
             "color": "#CE9178",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // entity.name.type
           "type": {
             "color": "#4EC9B0",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // variable
           "variable": {
             "color": "#9CDCFE",
             "background_color": null,
             "font_style": null,
             "font_weight": null
           },
+          // variable.language
           "variable.special": {
             "color": "#569CD6",
             "background_color": null,
