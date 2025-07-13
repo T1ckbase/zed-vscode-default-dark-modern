@@ -1,5 +1,5 @@
 > [!WARNING]
-> Still incomplete — some colors are missing.
+> Still incomplete, some colors are missing.
 
 ### Theme Comparison
 
