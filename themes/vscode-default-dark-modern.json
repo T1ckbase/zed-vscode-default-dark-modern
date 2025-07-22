@@ -8,12 +8,7 @@
       "appearance": "dark",
       "style": {
         "background.appearance": "opaque",
-        "accents": [
-          "#6f6f2a",
-          "#416f41",
-          "#6f416f",
-          "#1E4F4F"
-        ], // These colors are inspired by the VSCode Indent Rainbow extension
+        "accents": ["#6f6f2a", "#416f41", "#6f416f", "#1E4F4F"], // These colors are inspired by the VSCode Indent Rainbow extension
         "border": "#2b2b2b", // sideBar.border
         "border.variant": "#454545", // editorWidget.border
         "border.focused": "#0078d4", // ?
@@ -145,7 +140,7 @@
         "hidden": "#9d9d9d",
         "hidden.background": null,
         "hidden.border": null,
-        "hint": "#969696", // editorInlayHint.foreground
+        "hint": "#99999959", // GitLens // editorInlayHint.foreground
         "hint.background": "#202020", // editorWidget.background
         "hint.border": "#454545", // editorWidget.border
         "ignored": "#8c8c8c", // gitDecoration.ignoredResourceForeground
